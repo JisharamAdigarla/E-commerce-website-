@@ -1,0 +1,294 @@
+
+
+.headerAll {
+    background-color: black;
+    color: white;
+
+}
+.header1 {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header2 {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#Brandname {
+    color:red;
+}
+.items {
+    text-decoration-line: none;
+    color :white;
+}
+.items1 {
+    text-decoration-line: none;
+    color :white;
+}
+a :hover {
+    color:blueviolet;
+}
+.header3 {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20%;
+    background-color: black;
+    color: white;
+}
+.main {
+    height : 695px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+   
+}
+#id1:hover {
+    transform: translateX(50px);
+    
+}
+#id2:hover {
+    transform: translateX(50px);
+    
+}
+#id3:hover {
+    transform: translateX(50px);
+    
+}
+#id4:hover {
+    transform: translateX(50px);
+    
+}
+#id5:hover {
+    transform: translateX(50px);
+    
+}
+#id6:hover {
+    transform: translateX(50px);
+    
+}
+#id7:hover {
+    transform: translateX(50px);
+    
+}
+#id8:hover {
+    transform: translateX(50px);
+    
+}
+#id1 {
+    background-image: url("new.jpg");
+    border: 2px solid black;
+    color: black;
+    margin: 30px 30px 30px 30px;
+    height:250px;
+    width:250px;
+    display: inline-block;
+    background-size: cover;
+}
+#id2 {
+    background-image: url("beauty.jpg");
+    border: 2px solid black;
+    color: black;
+    margin: 30px 30px 30px 30px;
+    height:250px;
+    width:250px;
+    display: inline-block;
+    background-size: cover;
+}
+#id3 {
+    background-image: url("footwear.jpg");
+    border: 2px solid black;
+    color: black;
+    margin: 30px 30px 30px 30px;
+    height:250px;
+    width:250px;
+    display: inline-block;
+}
+#id4 {
+    background-image: url("access.png");
+    background-size: contain;
+    border: 2px solid black;
+    color: black;
+    margin: 30px 30px 30px 30px;
+    height:250px;
+    width:250px;
+    display: inline-block;
+}
+#id5 {
+    background-image: url("home.jpg");
+    border: 2px solid black;
+    color: black;
+    margin: 30px 30px 30px 30px;
+    height:250px;
+    width:250px;
+    display: inline-block;
+}
+#id6 {
+    background-image: url("watch.jpg");
+    background-size: contain;
+    border: 2px solid black;
+    color: black;
+    margin: 30px 30px 30px 30px;
+    height:250px;
+    width:250px;
+    display: inline-block;
+}
+#id7 {
+    background-image: url("travel.jpg");
+    border: 2px solid black;
+    color: black;
+    margin: 30px 30px 30px 30px;
+    height:250px;
+    width:250px;
+    display: inline-block;
+    background-size: cover;
+}
+#id8 {
+    background-image: url("hb.jpg");
+    background-size: contain;
+    border: 2px solid black;
+    color: black;
+    margin: 30px 30px 30px 30px;
+    height:250px;
+    width:250px;
+    display: inline-block;
+}
+
+
+.firsthead {
+    height: 695px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.box1 {
+    height : 550px;
+    background-image: url("imgh02.png");
+    width: 400px;
+    background-size: contain;
+    animation-name: myAnime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+
+}
+@keyframes myAnime{
+    from{left:50px;}
+    to{left:350px;}
+}
+
+.box2 {
+    height:550px;
+    background-image: url("imgh03.jpg");
+    width: 750px;
+    background-size: contain;
+   
+
+}
+#mons {
+    font-weight: 700px;
+}
+#mons2 {
+    font-weight: 400px;
+}
+.footerAll {
+    height:600px;
+    background-color:black;
+    justify-content: center;
+}
+.footer1 {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.footer2 {
+    color:white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 45%;
+    padding-right: 45%;
+}
+.footer3{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+}
+.footer4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color:red;
+}
+.footer5 {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.mid {
+    height :600px;
+    display: flex;
+    align-items: center;
+    
+    
+   
+}
+.mid1 {
+    height : 550px;
+    background-image: url("imggirls.jpg");
+    width: 400px;
+    background-size: cover;
+    margin-left: 0px;
+    margin-right: 10px;
+
+}
+.mid2 {
+    height : 550px;
+    background-image: url("imgh04.jpg");
+    width: 400px;
+    background-size: cover;
+    margin-right: 40px;
+}
+.top {
+    height: 695px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.trend{
+    height:600px;
+    width:650px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.pic{
+    height:600px;
+    width:650px;
+    
+    background-image: url("pic.jpg");
+    background-position: contain;
+
+}
